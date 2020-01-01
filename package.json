@@ -1,0 +1,27 @@
+{
+  "name": "gulp-css-dependency-collection",
+  "version": "1.0.0",
+  "description": "a css Dependency collection plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liqiyuanzi/gulp-css-dependency-collection.git"
+  },
+  "keywords": [
+    "css",
+    "dependency",
+    "collection"
+  ],
+  "dependencies": {
+    "through2": "^2.0.0"
+  },
+  "author": "liqiyuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liqiyuanzi/gulp-css-dependency-collection/issues"
+  },
+  "homepage": "https://github.com/liqiyuanzi/gulp-css-dependency-collection#readme"
+}
