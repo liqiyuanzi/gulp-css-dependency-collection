@@ -8,7 +8,7 @@ const gulp = require('gulp');
 const gcdc = require('gulp-css-dependency-collection');
 gulp.task('gcdc', (files) => {
 	return gulp.src( files, { base : 'src' } ).pipe( gcdc(files,compile) )
-                .pipe( dest( 'dist' ) );
+                .pipe( gulp.dest( 'dist' ) );
 });
 gulp.watch( 'src/**/*' ).on( 'change', compile );
 function compile( file ) {
